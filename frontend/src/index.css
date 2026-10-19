@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Markdown 报告排版 */
+.report-md h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1.2rem 0 0.8rem;
+}
+.report-md h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 1rem 0 0.6rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.3rem;
+}
+.report-md h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0.8rem 0 0.4rem;
+}
+.report-md p {
+  margin: 0.5rem 0;
+  line-height: 1.75;
+}
+.report-md ul,
+.report-md ol {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  line-height: 1.75;
+}
+.report-md li {
+  margin: 0.25rem 0;
+}
+.report-md table {
+  border-collapse: collapse;
+  margin: 0.8rem 0;
+  width: 100%;
+  font-size: 0.875rem;
+}
+.report-md th,
+.report-md td {
+  border: 1px solid #e5e7eb;
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+}
+.report-md th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+.report-md blockquote {
+  border-left: 3px solid #d1d5db;
+  margin: 0.6rem 0;
+  padding: 0.2rem 0.9rem;
+  color: #6b7280;
+}
+.report-md code {
+  background: #f3f4f6;
+  border-radius: 4px;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.85em;
+}
+.report-md pre {
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  overflow-x: auto;
+}
+.report-md hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 1.2rem 0;
+}

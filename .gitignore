@@ -1,0 +1,12 @@
+.env
+__pycache__
+.ipynb_checkpoints
+.langgraph_api/
+deep_research_from_scratch.egg-info/
+*.pyc
+backend/data/
+frontend/node_modules/
+frontend/dist/
+.venv/
+.idea/
+.vscode/
