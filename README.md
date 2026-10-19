@@ -48,14 +48,18 @@ deep_research_from_scratch/
 .venv\Scripts\python.exe -m pip install fastapi "langgraph-checkpoint-sqlite"
 ```
 
-**API Keys**：在根目录 `.env` 中配置（`research/src` 的模块在 import 时即读取）：
+**API Keys**：复制根目录的 [.env.example](.env.example) 为 `.env` 并填入真实值（`research/src` 的模块在 import 时即读取）：
+
+```powershell
+copy .env.example .env
+```
 
 ```
 ZHIPUAI_API_KEY=...     # 智谱 GLM（当前所有模型节点使用 openai:glm-5.3-flashx）
 TAVILY_API_KEY=...      # 联网检索
 ```
 
-> `.env` 已被 `.gitignore` 排除，不会随仓库上传；首次使用请参照上方说明自行创建。
+> `.env` 已被 `.gitignore` 排除，不会随仓库上传；各参数含义见 `.env.example` 内注释。
 
 **前端依赖**：
 
